@@ -1,0 +1,70 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+.maincont{
+    border: 2px solid purple;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.boxes{
+    width: 100%;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+#left{
+    border: 2px solid green;
+    margin: 0%;
+}
+#right{
+    margin: 0%;
+    border: 2px solid blue;
+}
+
+.nav{
+    margin: 0%;
+    border: 2px solid purple;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    border: 2px solid brown;
+    width: max-content;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    flex-flow: row nowrap;
+}
+
+.nav ul a{
+    flex-flow: row wrap;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 5px 20px;
+}
+
+#applelogo{
+    width: 50px;
+}
+
+#limg1{width: 50px;}
+#limg2{width: 50px;}
+
+.nav ul li a:hover{
+    color: aliceblue;
+}
+
+.hi:hover{
+    filter: invert(100%);
+}
+
+.subhead{
+    width: 100%;
+    background-color: rgb(212, 207, 207);
+}
