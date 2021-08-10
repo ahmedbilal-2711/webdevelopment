@@ -1,0 +1,281 @@
+* {
+  margin: auto;
+  padding: 0%;
+}
+.maincont {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+.boxes {
+  width: 100%;
+  margin: 0%;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  position: sticky;
+}
+#left {
+  margin: 0%;
+}
+#right {
+  margin: 0%;
+}
+
+.nav {
+  margin: 0%;
+  flex-basis: 885px;
+  display: sticky;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  flex-flow: row wrap;
+}
+
+.nav ul a {
+  flex-flow: row wrap;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px 5px 20px;
+}
+
+#applelogo {
+  width: 50px;
+}
+
+#limg1 {
+  width: 50px;
+}
+#limg2 {
+  width: 50px;
+}
+
+.nav ul li a:hover {
+  color: aliceblue;
+}
+
+.hi:hover {
+  filter: invert(100%);
+}
+
+.subhead {
+  background-color: rgb(212, 207, 207);
+  padding: 6px;
+  text-align: center;
+}
+
+.big12 {
+  display: flex;
+  background-color: white;
+  flex-flow: column wrap;
+  align-content: center;
+  width: auto;
+  padding: 20px;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+#b3i {
+  width: 700px;
+  height: 400px;
+}
+
+.b {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(45, 121, 209);
+  font-weight: 500000;
+  font-size: 26px;
+}
+
+.gap {
+  padding-top: 25px;
+}
+
+.b:hover {
+  text-decoration: underline;
+}
+
+.big12:hover {
+  cursor: pointer;
+}
+
+.b4 {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 12px;
+  cursor: pointer;
+  align-items: center;
+}
+#b4i {
+  width: 650px;
+}
+
+.white {
+  background-color: white;
+  height: 12px;
+}
+.square {
+  margin: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.half {
+  margin: 0%;
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 50%;
+  height: 400px;
+  font-size: 18px ;
+  cursor: pointer;
+  align-items: center;
+}
+
+#tv {
+  background-image: url("images/tvif.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  font-weight: 500px;
+}
+
+.sb {
+  margin: auto;
+  display: block;
+  width: 350px;
+  padding-bottom: 20px;
+}
+
+.bn {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(45, 121, 209);
+  font-weight: 500000;
+  font-size: 12px;
+}
+.bn:hover {
+  text-decoration: underline;
+}
+
+#pods {
+  background-image: linear-gradient(to top right, white, rgb(181, 238, 238));
+}
+
+.bottom{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+  border: 2px solid black;
+  margin-top: 220px;
+}
+
+.bt{
+  color: white;
+  text-decoration: none;
+}
+
+#tv a:hover{
+  text-decoration: underline;
+}
+
+.semifoot{
+  margin: auto;
+  display: block;
+  width: 65%;
+  font-size: smaller;
+  padding: 12px;
+  opacity: 0.7;
+}
+
+.textf{
+  padding-bottom: 10px;
+}
+
+.listing{
+  display: flex;
+  width: 74%;
+  margin: auto;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.column{
+  height: 350px;
+  padding: 5%;
+  padding-top: 0px;
+}
+
+.headingf{
+  padding-top: 15px;
+}
+
+.options{
+  list-style: none;
+  padding-top: 8px;
+}
+
+.options a{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.semifoot a{
+  color: rgb(49, 103, 165);
+}
+.options a:hover{
+  text-decoration: underline;
+}
+
+.f{
+  display: flex;
+  font-size: x-small;
+  align-items: center;
+  width: 100%;
+}
+
+.left{
+  display: flex; 
+  width: 200px;
+  margin-right: 35px;
+  text-align: start;
+}
+.right{
+  display: flex;
+  margin-left: 65px;
+  text-align: end;
+}
+
+.navf{ 
+  display: flex;
+  margin-right:180px;
+}
+.navf li{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navf li a{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.r{
+  border-right: 2px solid black;
+}
