@@ -1,0 +1,101 @@
+*{
+    /* width: 100%; */
+    margin: 0%;
+    padding: 0%;
+}
+
+#fancy{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    font-size: small;
+}
+
+.header{
+    display: flex;
+    background-color: green;
+    color: white;
+    padding: 4px 0px 4px 0px;
+    flex-flow: row wrap;
+    font-size: small;
+    align-items:  center;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    flex-flow: row wrap;
+    width: 245px;
+    text-align: end;
+    align-items: center;
+    border: 2px solid yellow;
+    padding-right: 80px;
+}
+
+.left{
+    padding-left: 80px;
+    border: 2px solid red;
+}
+
+#cell{
+    height: 25px;
+}
+
+#whatsapp{
+    height: 25px;
+}
+
+.right a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    height: 80%;
+    width: 50%;
+    border: 2px solid brown;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    text-transform: uppercase;
+    padding: 15px 4px 15px 4px;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.nav{
+    border: 2px solid red;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+}
+
+.nav li a{
+    height: 50px;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.nav li a:hover,.nav li a:active{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    border: 2px solid purple;
+}
+
+.icon{
+    height: 25px;
+}
