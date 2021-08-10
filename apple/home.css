@@ -245,6 +245,7 @@
 .f{
   display: flex;
   font-size: x-small;
+  opacity: 0.7;
   align-items: center;
   width: 100%;
 }
