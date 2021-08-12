@@ -28,13 +28,11 @@
     width: 245px;
     text-align: end;
     align-items: center;
-    border: 2px solid yellow;
     padding-right: 80px;
 }
 
 .left{
     padding-left: 80px;
-    border: 2px solid red;
 }
 
 #cell{
@@ -50,12 +48,6 @@
     color: white;
 }
 
-.logo{
-    height: 80%;
-    width: 50%;
-    border: 2px solid brown;
-}
-
 .navigation{
     display: flex;
     align-items: center;
@@ -66,14 +58,17 @@
     justify-content: center;
 }
 
-.nav{
-    border: 2px solid red;
+#l{
+    width: 20%;
 }
+
+.nav{}
 
 .nav ul{
     display: flex;
     list-style: none;
     flex-flow: row wrap;
+    align-items: center;
 }
 
 .nav li a{
@@ -84,7 +79,7 @@
     text-align: center;
 }
 
-.nav li a:hover,.nav li a:active{
+.nav ul li a:hover,.nav ul li a:active{
     background-color: green;
     color: white;
     border-radius: 15px;
@@ -93,9 +88,27 @@
 .icons{
     display: flex;
     align-items: center;
-    border: 2px solid purple;
 }
 
 .icon{
     height: 25px;
+}
+
+
+.divisions{
+    display: flex;
+    border: 2px solid red;
+    justify-content: flex-start;
+}
+
+.aside{
+    width: 110px;
+    border: 2px solid black;
+    z-index: 12;
+}
+
+.choices{
+    display: flex;
+    border: 2px solid green;
+    z-index: -1;
 }
