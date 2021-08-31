@@ -61,6 +61,7 @@
 
 #l{
     width: 20%;
+<<<<<<< HEAD
 }
 
 .navigation{
@@ -68,7 +69,11 @@
     top: 0px;
     background-color: white;
     z-index: 2;
+=======
+>>>>>>> ee1b5dbcbb047b4990fd379c34382a7fb788d1bf
 }
+
+.nav{}
 
 .nav ul{
     display: flex;
@@ -93,14 +98,19 @@
 
 .icons{
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
     gap: 4px;
+=======
+    align-items: center;
+>>>>>>> ee1b5dbcbb047b4990fd379c34382a7fb788d1bf
 }
 
 .icon{
     height: 25px;
 }
 
+<<<<<<< HEAD
 .icon:hover{
     cursor: pointer;
 }
@@ -136,10 +146,24 @@
     background-color: black;
     color: white;
     cursor: pointer;
+=======
+
+.divisions{
+    display: flex;
+    border: 2px solid red;
+    justify-content: flex-start;
+}
+
+.aside{
+    width: 110px;
+    border: 2px solid black;
+    z-index: 12;
+>>>>>>> ee1b5dbcbb047b4990fd379c34382a7fb788d1bf
 }
 
 .choices{
     display: flex;
+<<<<<<< HEAD
     border: 2px solid rgb(89, 55, 133);
     left: 10px;
     width: 100%;
@@ -182,3 +206,8 @@
 .choiceimage:hover{
     cursor: pointer;
 }
+=======
+    border: 2px solid green;
+    z-index: -1;
+}
+>>>>>>> ee1b5dbcbb047b4990fd379c34382a7fb788d1bf
