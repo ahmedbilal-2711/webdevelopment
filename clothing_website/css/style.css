@@ -20,6 +20,7 @@
     align-items:  center;
     text-transform: uppercase;
     justify-content: space-between;
+    gap: 680px;
 }
 
 .right{
@@ -28,13 +29,11 @@
     width: 245px;
     text-align: end;
     align-items: center;
-    border: 2px solid yellow;
     padding-right: 80px;
 }
 
 .left{
     padding-left: 80px;
-    border: 2px solid red;
 }
 
 #cell{
@@ -50,12 +49,6 @@
     color: white;
 }
 
-.logo{
-    height: 80%;
-    width: 50%;
-    border: 2px solid brown;
-}
-
 .navigation{
     display: flex;
     align-items: center;
@@ -66,14 +59,22 @@
     justify-content: center;
 }
 
-.nav{
-    border: 2px solid red;
+#l{
+    width: 20%;
+}
+
+.navigation{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
 }
 
 .nav ul{
     display: flex;
     list-style: none;
     flex-flow: row wrap;
+    align-items: center;
 }
 
 .nav li a{
@@ -84,7 +85,7 @@
     text-align: center;
 }
 
-.nav li a:hover,.nav li a:active{
+.nav ul li a:hover,.nav ul li a:active{
     background-color: green;
     color: white;
     border-radius: 15px;
@@ -92,10 +93,92 @@
 
 .icons{
     display: flex;
-    align-items: center;
-    border: 2px solid purple;
+    flex-wrap: wrap;
+    gap: 4px;
 }
 
 .icon{
     height: 25px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.divisions{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.topsec{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.topsec::before{
+    content: "";
+    background: url("/images/m.jpg") no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 500px;
+}
+
+.b1{
+    position: relative;
+    height: 30px;
+    top: 150px;
+    border-radius: 12px;
+    padding: 5px 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.choices{
+    display: flex;
+    border: 2px solid rgb(89, 55, 133);
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    flex-flow: row wrap;
+}
+
+.rows{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: 1px solid orangered;
+    width: 33%;
+    padding: 12px 0px 8px 0px;
+    font-size: x-large;
+}
+
+.rows h3{
+    font-weight: lighter;
+    padding-top: 4px;
+}
+
+.rows a{
+    font-size: medium;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.rows a:hover{
+    cursor: pointer;
+}
+
+.choiceimage{
+    width: 400px;
+    height: 400px;
+}
+
+.choiceimage:hover{
+    cursor: pointer;
 }
