@@ -60,3 +60,32 @@ z-index: -1;
 #contact::after{
     content: "";
 }
+
+/* Form styling */
+#content{
+    background-color: blue;
+    border: 2px solid rgb(3, 129, 41);
+    display: flex ;
+    font-size: 1.2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+}
+
+input{
+    width: 70%;
+}
+
+select{
+    width: 95px;
+}
+
+.longcont{
+    display: flex;
+    flex-flow: column;
+    border: 2px solid white;
+    width: 300px;
+}
