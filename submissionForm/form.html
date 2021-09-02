@@ -18,39 +18,48 @@
             </li>
         </ul>
     </nav>
-    <div id="form">
-        <div id="content">
+    <div id="bg">
+      <div id="form">
+        <div id="heading">
             <h1>
-                 DUBAI TRIP REGISTRATION
+                Welcome to Awesome Travelers
             </h1>
             <h3>
-                 Fill the form to be part of us
+                Register Now
             </h3>
-            <div class="inputs">
-                <div><label for="name">Name: </label>
-                    <input type="text" name="" class="longcont" id="name" placeholder="Enter your Name">
-                </div>
-                <div><label for="Age">Age: </label>
-                    <input type="number" name="" class="longcont" id="Age" placeholder="00">
-                </div>
-                <div><label for="num">Cell No.: </label>
-                    <input type="number" name="" class="longcont" id="num" placeholder="xxxxxxxxxxxx">
-                </div>
-                <div><label for="email">Email: </label>
-                    <input type="email" name="" class="longcont" id="email">
-                </div>
-                <div><label for="prof">Profession: </label>
-                    <Select id="prof">
-                        <Option>Student</Option>
-                        <Option>Employe</Option>
-                        <Option>None</Option>
-                    </Select>
-                </div>
-                <div>
-                   Consulted Parents: <input type="radio" name="r" id="">Yes<input type="radio" name="r" id="">No
-                </div>
+        </div>
+        <div id="inputs">
+            <div>
+                <input type="text" name="" id="name" placeholder="Name" class="inputType">
+            </div>
+            <div>
+                <input type="number" name="" id="age" placeholder="Age" class="inputType">
+            </div>
+            <div>
+                <input type="email" name="" id="email" placeholder="Email" class="inputType">
+            </div>
+            <div>
+                <input type="number" name="" id="pn" placeholder="Phone" class="inputType">
+            </div>
+            <div>
+                <label for="prof">Profession: </label>
+                <select name="" id="prof">
+                    <option value="">STUDENT</option>
+                    <option value="">CHILDREN</option>
+                    <option value="">ADULT</option>
+                </select>
+            </div>
+            <div>
+                <label for="perm">Parents Allowed: </label>
+                Yes<input type="radio" name="perm" id="">
+                No<input type="radio" name="perm" id="">
+            </div>
+            <div id="btns">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
             </div>
         </div>
+      </div>
     </div>
 </body>
 </html>
