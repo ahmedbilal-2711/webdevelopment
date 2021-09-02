@@ -67,7 +67,7 @@ justify-content: center;
 
 /* Form styling */
 #form{
-    background-color: rgb(230, 199, 122,0.7);
+    background-color: rgba(109, 145, 192, 0.7);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     display: flex ;
@@ -110,3 +110,19 @@ justify-content: center;
     padding: 3px 20px;
     border-radius: 8px;
 }
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 520px;
+}
+
+#right a{
+    text-decoration: none;
+    color: white;
+}
+
