@@ -6,3 +6,7 @@ if(age<18){
 else{
     confirm("Are you sure for the Dubai trip")
 }
+
+let footCenter = document.getElementById('center');
+footCenter.innerHTML = "No copy rights";
+console.log(footCenter);
