@@ -19,7 +19,7 @@
         </ul>
     </nav>
     <div id="bg">
-      <form action="" id="form">
+      <form action="form.php" method="post" id="form">
         <div id="heading">
             <h1>
                 Welcome to Awesome Travelers
@@ -30,29 +30,29 @@
         </div>
         <div id="inputs">
             <div>
-                <input type="text" name="" id="name" placeholder="Name" class="inputType">
+                <input type="text" name="name" id="name" placeholder="Name" class="inputType">
             </div>
             <div>
-                <input type="number" name="" id="age" placeholder="Age" class="inputType">
+                <input type="number" name="age" id="age" placeholder="Age" class="inputType">
             </div>
             <div>
-                <input type="email" name="" id="email" placeholder="Email" class="inputType">
+                <input type="email" name="email" id="email" placeholder="Email" class="inputType">
             </div>
             <div>
-                <input type="number" name="" id="pn" placeholder="Phone" class="inputType">
+                <input type="number" name="pn" id="pn" placeholder="Phone" class="inputType">
             </div>
             <div>
                 <label for="prof">Profession: </label>
-                <select name="" id="prof">
-           0         <option value="">STUDENT</option>
-                    <option value="">CHILDREN</option>
-                    <option value="">ADULT</option>
+                <select name="prof" id="prof">
+                    <option value="std">STUDENT</option>
+                    <option value="ch" selected>CHILDREN</option>
+                    <option value="adl">ADULT</option>
                 </select>
             </div>
             <div>
                 <label for="perm">Parents Allowed: </label>
-                Yes<input type="radio" name="perm" id="">
-                No<input type="radio" name="perm" id="">
+                Yes<input type="radio" name="perm" id="perm" value="Yes" selected>
+                No<input type="radio" name="perm" id="perm" value="No">
             </div>
             <div id="btns">
                 <input type="submit" value="Submit">
@@ -63,7 +63,7 @@
     </div>
     <footer>
         <div id="right">
-            <a href="whatsapp.com">Contact Us</a>
+            <a href="https://web.whatsapp.com/">Contact Us</a>
         </div>
         <div id="center">
             <p>Copyright © 2021 Apple Inc. All rights reserved.</p>
@@ -73,4 +73,5 @@
         </div>
     </footer>
 </body>
+<script src="form.js"></script>
 </html>
