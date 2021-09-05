@@ -71,7 +71,6 @@ justify-content: center;
 /* Form styling */
 #form{
     background-color: rgba(109, 145, 192, 0.7);
-    box-shadow: -10px 10px 15px rgba(67, 136, 226, 0.7);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     display: flex ;
@@ -82,6 +81,12 @@ justify-content: center;
     justify-content: center;
     width: 700px;
     height: 500px;
+    transition: box-shadow;
+    transition-duration: 500ms;
+}
+
+#form:hover{
+    box-shadow: -30px 30px 60px rgba(11, 54, 110, 0.7);
 }
 
 #heading{
@@ -131,24 +136,56 @@ footer{
 }
 
 /* ABOUT US */
-.profile{
-    height : 200px;
-    border-radius: 55%;
+#abouth1{
+    background-color: rgb(165, 133, 91);
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 20px 0px 5px 0px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-size: x-large;
+    background-color: rgb(165, 133, 91);
 }
 
 #desc4,#desc3,#desc2,#desc1{
-    background-color: rgb(165, 133, 91);
-    /* padding: 50px; */
-}
-
-table{
-    display: block;
-    margin: auto;
-    border-spacing:20px ;
-    padding-top: 20px;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+    border-radius: 35px;
+    transition: all;
+    transition-duration: 800ms;
 }
 
-table tr td{
-    font-size: x-large;
+#desc4:hover,#desc3:hover,#desc2:hover,#desc1:hover{
+    background-color: rgba(248, 194, 94, 0.808);
+}
+
+#desc4:hover>.b1,#desc3:hover>.b1,#desc2:hover>.b1,#desc1:hover>.b1{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-height: 100%;
+}
+
+.b1{
+    transition: all;
+    transition-duration: 1000ms;
+    display: none;
+    max-height: 0px;
+}
+
+
+
+.profile{
+    width: 200px;
+    height : 200px;
+    border-radius: 55%;
 }
