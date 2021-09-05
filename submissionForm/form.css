@@ -41,7 +41,6 @@ justify-content: center;
 
 .nav::before{
     content: "";
-    border : 2px solid red;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -52,7 +51,7 @@ justify-content: center;
 
 #icon{
     height: 35px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 25px 10px 25px;
 }
 
 .nav ul li a:hover{
@@ -65,9 +64,14 @@ justify-content: center;
     content: "";
 }
 
+#menu{
+    height: 25px;
+}
+
 /* Form styling */
 #form{
     background-color: rgba(109, 145, 192, 0.7);
+    box-shadow: -10px 10px 15px rgba(67, 136, 226, 0.7);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     display: flex ;
@@ -126,3 +130,25 @@ footer{
     color: white;
 }
 
+/* ABOUT US */
+.profile{
+    height : 200px;
+    border-radius: 55%;
+}
+
+#desc4,#desc3,#desc2,#desc1{
+    background-color: rgb(165, 133, 91);
+    /* padding: 50px; */
+}
+
+table{
+    display: block;
+    margin: auto;
+    border-spacing:20px ;
+    padding-top: 20px;
+    width: 70%;
+}
+
+table tr td{
+    font-size: x-large;
+}

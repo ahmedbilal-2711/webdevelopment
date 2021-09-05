@@ -1,77 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dubai Trip</title>
-    <link rel="stylesheet" href="form.css">
-</head>
-<body>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
     <nav class="nav">
-        <img src="images/busIcon.png" alt="Icon" id="icon">
-        <ul>
-            <li>
-                <a href="#">HOME</a>
-                <a href="#" id="contact">CONTACT US</a>
-                <a href="#">ABOUT US</a>
-            </li>
-        </ul>
+      <img src="images/busIcon.png" alt="Icon" id="icon" />
+      <ul>
+        <li>
+          <a href="#">HOME</a>
+          <a href="#" id="contact">CONTACT US</a>
+          <a href="#">ABOUT US</a>
+        </li>
+      </ul>
+      <img src="./images/menu.png" alt="menu" id="menu">
     </nav>
     <div id="bg">
       <form action="form.php" method="post" id="form">
         <div id="heading">
-            <h1>
-                Welcome to Awesome Travelers
-            </h1>
-            <h3>
-                Register Now
-            </h3>
+          <h1>Welcome to Awesome Travelers</h1>
+          <h3>Register Now</h3>
         </div>
         <div id="inputs">
-            <div>
-                <input type="text" name="name" id="name" placeholder="Name" class="inputType">
-            </div>
-            <div>
-                <input type="number" name="age" id="age" placeholder="Age" class="inputType">
-            </div>
-            <div>
-                <input type="email" name="email" id="email" placeholder="Email" class="inputType">
-            </div>
-            <div>
-                <input type="number" name="pn" id="pn" placeholder="Phone" class="inputType">
-            </div>
-            <div>
-                <label for="prof">Profession: </label>
-                <select name="prof" id="prof">
-                    <option value="std">STUDENT</option>
-                    <option value="ch" selected>CHILDREN</option>
-                    <option value="adl">ADULT</option>
-                </select>
-            </div>
-            <div>
-                <label for="perm">Parents Allowed: </label>
-                Yes<input type="radio" name="perm" id="perm" value="Yes" selected>
-                No<input type="radio" name="perm" id="perm" value="No">
-            </div>
-            <div id="btns">
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset">
-            </div>
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              class="inputType"
+            />
+          </div>
+          <div>
+            <input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="Age"
+              class="inputType"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="inputType"
+            />
+          </div>
+          <div>
+            <input
+              type="number"
+              name="pn"
+              id="pn"
+              placeholder="Phone"
+              class="inputType"
+            />
+          </div>
+          <div>
+            <label for="prof">Profession: </label>
+            <select name="prof" id="prof">
+              <option value="std">STUDENT</option>
+              <option value="ch" selected>CHILDREN</option>
+              <option value="adl">ADULT</option>
+            </select>
+          </div>
+          <div>
+            <label for="perm">Parents Allowed: </label>
+            Yes<input type="radio" name="perm" id="perm" value="Yes" selected />
+            No<input type="radio" name="perm" id="perm" value="No" />
+          </div>
+          <div id="btns">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </div>
         </div>
-    </form>
+      </form>
     </div>
+    <main>
+      <div id="desc1">
+        <table>
+          <tr>
+            <td>
+              <img src="./images/ahmed2.jpg" alt="my img" class="profile">
+            </td>
+            <td>
+              <h2>Ahmed Bilal Siddiqui</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Obcaecati quasi accusamus optio tenetur quam nulla porro. Cum,
+                expedita nulla! Sequi explicabo asperiores tempore aspernatur
+                eaque, quidem porro facilis odit dolores suscipit quam
+                perferendis dignissimos saepe aliquam architecto iusto expedita?
+                Amet?
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="desc2">
+        <table>
+            <tr>
+              <td>
+                <img src="./images/ahmed2.jpg" alt="my img" class="profile">
+              </td>
+              <td>
+                <h2>Ahmed Bilal Siddiqui</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Obcaecati quasi accusamus optio tenetur quam nulla porro. Cum,
+                  expedita nulla! Sequi explicabo asperiores tempore aspernatur
+                  eaque, quidem porro facilis odit dolores suscipit quam
+                  perferendis dignissimos saepe aliquam architecto iusto expedita?
+                  Amet?
+                </p>
+              </td>
+            </tr>
+          </table>
+      </div>
+      <div id="desc3">
+        <table>
+            <tr>
+              <td>
+                <img src="./images/ahmed2.jpg" alt="my img" class="profile">
+              </td>
+              <td>
+                <h2>Ahmed Bilal Siddiqui</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Obcaecati quasi accusamus optio tenetur quam nulla porro. Cum,
+                  expedita nulla! Sequi explicabo asperiores tempore aspernatur
+                  eaque, quidem porro facilis odit dolores suscipit quam
+                  perferendis dignissimos saepe aliquam architecto iusto expedita?
+                  Amet?
+                </p>
+              </td>
+            </tr>
+          </table>
+      </div>
+    </main>
     <footer>
-        <div id="right">
-            <a href="https://web.whatsapp.com/">Contact Us</a>
-        </div>
-        <div id="center">
-            <p>Copyright © 2021 Apple Inc. All rights reserved.</p>
-        </div>
-        <div id="left">
-            Pakistan
-        </div>
+      <div id="right">
+        <a href="https://web.whatsapp.com/">Contact Us</a>
+      </div>
+      <div id="center">
+        <p>Copyright © 2021 Apple Inc. All rights reserved.</p>
+      </div>
+      <div id="left">Pakistan</div>
     </footer>
-</body>
-<script src="form.js"></script>
+  </body>
+  <script src="form.js"></script>
 </html>
