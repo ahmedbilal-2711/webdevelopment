@@ -1,5 +1,5 @@
 <?php
- $serverName = "192.168.0.104,2001"; //serverName\instanceName
+ $serverName = "192.168.0.103,2001"; //serverName\instanceName
 
  // Since UID and PWD are not specified in the $connectionInfo array,
  // The connection will be attempted using Windows Authentication.

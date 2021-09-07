@@ -160,29 +160,36 @@ footer{
     padding: 25px;
     gap: 20px;
     border-radius: 35px;
-    transition: all;
-    transition-duration: 800ms;
+    transition: background-color;
+    transition-duration: 3000ms;
 }
 
 #desc4:hover,#desc3:hover,#desc2:hover,#desc1:hover{
     background-color: rgba(248, 194, 94, 0.808);
 }
 
-#desc4:hover>.b1,#desc3:hover>.b1,#desc2:hover>.b1,#desc1:hover>.b1{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    max-height: 100%;
-}
-
 .b1{
     transition: all;
-    transition-duration: 1000ms;
-    display: none;
+    transition-duration: 3000ms;
+    /* display: none; */
+    opacity: 0;
+    text-align: center;
     max-height: 0px;
 }
 
+#desc3:hover>.b1,#desc2:hover>.b1,#desc1:hover>.b1{
+    align-items: center;
+    opacity: 1;
+    /* display: flex;
+    flex-direction: column; */
+    max-height: 100%;
+    /* visibility: visible; */
+}
 
+@keyframes fadeText {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
 
 .profile{
     width: 200px;
