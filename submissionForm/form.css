@@ -171,19 +171,17 @@ footer{
 .b1{
     transition: all;
     transition-duration: 3000ms;
-    /* display: none; */
-    opacity: 0;
+    display: none;
     text-align: center;
     max-height: 0px;
 }
 
 #desc3:hover>.b1,#desc2:hover>.b1,#desc1:hover>.b1{
     align-items: center;
-    opacity: 1;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     max-height: 100%;
-    /* visibility: visible; */
+    visibility: visible;
 }
 
 @keyframes fadeText {
