@@ -22,3 +22,5 @@ setInterval(() => {
 
 
 let test=(a,b) => console.log("The sum is: "+(a+b));
+
+console.log("Hello");

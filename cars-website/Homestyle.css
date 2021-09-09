@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* Head */
+.head{
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+/* Sliding Images */
+.carSlide{
+    height: 90%;
+    width: 100%;
+    border-radius: 18px;
+}
+
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 650px;
+}
+
+#sec1{
+    background-image: radial-gradient(farthest-corner,rgb(196, 199, 12),rgba(38, 38, 133, 0.438));
+}
+
+#indicate{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    gap: 5px;
+    z-index: 2;
+    top: 600px;
+    right: 695px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
