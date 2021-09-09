@@ -4,47 +4,100 @@
 }
 /* Head */
 .head{
-    height: 30px;
-    background-color: black;
-    color: white;
+    height: 28px;
+    background-color: rgba(157, 190, 38, 0.37);
+    color: black;
     text-align: center;
-    font-size: 1.8rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
 
+/* Navigation */
+#nav{
+    background-color: red;
+    height: 33px;
+}
+
 /* Sliding Images */
-.carSlide{
-    height: 90%;
+#sec1{
+    background-color: rgba(196, 143, 45, 0.801);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    margin: auto;
+    position: absolute;
+}
+.carSlide{
+    height: 460px;
+    width: 850px; 
     border-radius: 18px;
 }
 
 #images{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
     margin: auto;
-    width: 90%;
-    height: 650px;
-}
-
-#sec1{
-    background-image: radial-gradient(farthest-corner,rgb(196, 199, 12),rgba(38, 38, 133, 0.438));
+    width: 850px;
+    height: 100%;
 }
 
 #indicate{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     position: absolute;
     gap: 5px;
     z-index: 2;
-    top: 600px;
-    right: 695px;
+    top: 434px;
+    left: 460px;
 }
 .circle{
     width: 15px;
     height: 15px;
-    background-color: red;
     border-radius: 50%;
+    background-color: white;
+    background-color: rgb(197, 150, 150);
+}
+
+#slideAside{
+    width: 350px;
+}
+
+#BuyNow{
+    position: absolute;
+    top: 415px;
+    left: 770px;
+    background-color: lightcoral;
+}
+
+#slideAside{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 500px;
+    padding: 15px 30px 15px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#specs{
+    font-size: 1.8rem;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Common  */
+
+.btn{
+    padding: 10px 12px;
+    border-radius: 11px;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
 }
