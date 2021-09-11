@@ -1,3 +1,14 @@
+/* Common  */
+
+.btn{
+    padding: 10px 12px;
+    border-radius: 11px;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
 *{
     margin: 0%;
     padding: 0%;
@@ -53,6 +64,11 @@ li{
     background-color: black;
     color: white;
 }
+ul li a :active{
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.534);
+    color: black;
+}
 
 #icon{
     width: 46px;
@@ -79,7 +95,6 @@ li{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
     width: 850px;
     height: 550px;
 }
@@ -88,11 +103,9 @@ li{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: absolute;
     gap: 5px;
     z-index: 2;
-    top: 624px;
-    left: 440px;
+    margin-top: -30px;
 }
 .circle{
     width: 15px;
@@ -102,7 +115,6 @@ li{
 }
 
 #slideAside{
-    margin-right: 70px;
     border: 2px groove black;
     border-radius: 18px;
     color: black;
@@ -129,13 +141,19 @@ li{
     font-style: italic;
 }
 
-/* Common  */
-
-.btn{
-    padding: 10px 12px;
-    border-radius: 11px;
-    border: 1px solid black;
-    font-size: 1rem;
-    font-weight: bolder;
-    cursor: pointer;
+.slidebtn{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    z-index: 0;
 }
+
+.imgChange{
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    z-index: 4;
+    margin-bottom: -50px;
+    display: none;
+}
+
