@@ -89,6 +89,10 @@ ul li a :active{
     transform: rotate(-90deg);
 }
 
+#contactSub{
+    display: none;
+}
+
 /* Sliding Images */
 #sec1{
     background-color:rgb(199, 162, 162);
@@ -171,3 +175,14 @@ ul li a :active{
     display: none;
 }
 
+/* Cars */
+#sec2,#sec3,#sec4,#sec5{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid red;
+    justify-content: space-between;
+}
+
+.toyota,.honda,.bmw,.audi{
+    border: 2px solid green;
+}
