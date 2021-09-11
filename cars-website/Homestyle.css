@@ -17,9 +17,22 @@
 .head{
     height: 28px;
     background-color: black;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
+    padding: 8px 15px 2px 9px;
+}
+
+#date{
+    padding: 2px 5px 2px 5px;
+    background-color: white;
+    color: black;
+    float: left;
+    border-radius: 5px;
+}
+#time{
+    padding: 2px 5px 2px 5px;
+    background-color: white;
+    color: black;
+    float: right;
+    border-radius: 5px;
 }
 
 /* Navigation */
@@ -133,6 +146,7 @@ ul li a :active{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: left;
     gap: 5px;
 }
 

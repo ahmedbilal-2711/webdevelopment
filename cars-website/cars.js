@@ -114,4 +114,13 @@ let imgInd = (i) => {
             btn[l].style.display="none"
         }
     });
+
 //Clock and Calander for header
+function Calander() {
+    let timedate = new Date();
+    let date = timedate.toDateString();
+    let time = timedate.toTimeString().slice(0,8);
+    document.getElementById("time").innerHTML=time;
+    document.getElementById("date").innerHTML=date;
+}
+setInterval(Calander,1000);
