@@ -9,6 +9,12 @@
     cursor: pointer;
 }
 
+h2{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
 *{
     margin: 0%;
     padding: 0%;
@@ -64,7 +70,7 @@ li{
     list-style: none;
 }
 
- ul li a{
+ul li a{
     display: flex;
     text-decoration: none;
     padding: 4px 8px 4px 8px;
@@ -79,7 +85,7 @@ li{
 }
 ul li a :active{
     border-radius: 10px;
-    background-color: rgba(128, 128, 128, 0.534);
+    background-color: rgba(75, 3, 3, 0.534);
     color: black;
 }
 
@@ -88,9 +94,27 @@ ul li a :active{
     height: 60px;
     transform: rotate(-90deg);
 }
-
+#contact:hover > #contactSub{
+    position: absolute;
+    display: block;
+    z-index: 2;
+}
 #contactSub{
     display: none;
+    background-color: rgb(238, 181, 198);
+}
+
+#contactSub li a{
+    font-size: 1.2rem;
+}
+#contactSub li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.contactSubIcon{
+    width: 20px;
+    height: 20px;
 }
 
 /* Sliding Images */
@@ -176,13 +200,29 @@ ul li a :active{
 }
 
 /* Cars */
-#sec2,#sec3,#sec4,#sec5{
+.sec2{
     display: flex;
     flex-flow: row wrap;
-    border: 2px solid red;
     justify-content: space-between;
+    align-items: center;
 }
 
 .toyota,.honda,.bmw,.audi{
     border: 2px solid green;
+    width: 28%;
+}
+
+
+.listChange{
+    height: 40px;
+    background-color: white;
+    color: green;
+    font-size: 1.6rem;
+    padding: 5px 10px;
+    font-weight: 1200;
+}
+
+.honda > img{
+    width: 265px;
+    height: 120px;
 }
