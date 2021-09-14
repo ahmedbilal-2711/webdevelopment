@@ -1,0 +1,42 @@
+#middle{
+    visibility: hidden;
+}
+
+#menuIcon{
+    visibility: visible;
+}
+
+/* Sliding Images */
+#images{
+    width: 95%;
+    height: 350px;
+}
+
+#slideAside{
+    width: 80%;
+}
+
+/* Cars */
+.sec2{
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.toyota,.honda,.bmw,.audi{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.listChange{
+    transform:rotate(90deg) ;
+}
+
+.honda > img,.audi > img,.bmw > img,.toyota > img{
+    width: 265px;
+    height: 120px;
+}
