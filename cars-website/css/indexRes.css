@@ -1,10 +1,125 @@
+/* Nav bar */
 #middle{
     visibility: hidden;
 }
 
-#menuIcon{
+#menuBtn{
     visibility: visible;
 }
+
+#menuBtn>img{
+    visibility: visible;
+}
+
+/* CSS of Responsive Bar */
+#menuList{
+    display: none;
+    position: absolute;
+    width: 130px;
+}
+
+#menuList{
+    background-color: rgb(238, 181, 198);
+}
+
+#menuList li a:hover{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+#contactSubM{
+    display: none;
+    left: 130px;
+    bottom: 7px;
+}
+
+#contactM:hover > #contactSubM{
+    position: absolute;
+    display: block;
+}
+#contactSubM li a{
+    font-size: 1.2rem;
+    opacity: 0;
+}
+#contactSubM li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#con1M{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 0ms 1 forwards normal;
+}
+#con2M{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 270ms 1 forwards normal;
+}
+#con3M{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 520ms 1 forwards normal;
+}
+#con4M{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 770ms 1 forwards normal;
+}
+
+.contactSubIcon{
+    width: 20px;
+    height: 20px;
+}
+
+#serviceSubM{
+    display: none;
+    position: absolute;
+    font-size: 1.2rem;
+    left: 130px;
+    top: 95px;
+}
+
+#serviceSubM li a{
+    opacity: 0;
+}
+
+#serviceM:hover > #serviceSubM{
+    display: block;
+    color: black;
+}
+
+#s1M{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 0ms 1 forwards normal;
+}
+#s2M{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 270ms 1 forwards normal;
+}
+#s3M{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 520ms 1 forwards normal;
+}
+
+@keyframes roll {
+    0%{
+        display: block;
+        opacity: 0;
+        transform: rotateX(90deg);
+    }
+    50%{
+        opacity: 0.5;
+        transform: rotateX(20deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+#serviceSubM li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
 
 /* Sliding Images */
 #images{

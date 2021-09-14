@@ -51,10 +51,16 @@ h2{
     padding: 2px 14px 2px 4px;
 }
 
-#menuIcon{
-    height: 42px;
+#menuBtn{
     visibility: hidden;
+    height: 16px;
 }
+
+#menuBtn>img{
+    visibility: hidden;
+    height: 12px;
+}
+
 
 #nav>#middle{
     flex: 2;
@@ -79,7 +85,7 @@ ul li a{
     color: black;
 }
 
- ul li a:hover{
+ul li a:hover{
     border-radius: 10px;
     background-color: black;
     color: white;
@@ -96,14 +102,19 @@ ul li a :active{
     transform: rotate(-90deg);
 }
 
+#menuList{
+    display: none;
+}
+
 #contactSub{
     display: none;
 }
 
 #contact:hover > #contactSub{
-    position: absolute;
     display: block;
+    position: absolute;
 }
+
 #contactSub li a{
     font-size: 1.2rem;
     opacity: 0;

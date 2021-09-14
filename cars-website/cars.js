@@ -316,3 +316,20 @@ if (h>=1 && h<=3) {
         document.getElementById("bh3").innerHTML="M4";
     }
 }
+
+// Responsive Nav
+let ml = document.getElementById("menuList");
+let menuBtn = document.getElementById("menuBtn");
+let menuBtnImg = document.getElementById("menuBtnImg")
+let counter = 0;
+menuBtn.addEventListener('click',()=>{
+    counter++;
+    if(counter%2==0){
+        ml.style.display='block';
+        menuBtnImg.src='./images/menuCross.png';
+    }
+    else{
+        ml.style.display='none';
+        menuBtnImg.src='./images/menuBar.png';
+    }
+});
