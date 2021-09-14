@@ -128,7 +128,6 @@ setInterval(Calander,1000);
 //Body Car's List
 let b=1;
 let lcb=document.getElementsByClassName("listChange");
-console.log(lcb);
 lcb[0].addEventListener('click',()=>{
     b-=3;
     if (b<1) {
@@ -157,7 +156,6 @@ lcb[3].addEventListener('click',()=>{
         b=1;
     }
     showHonda(b);
-    console.log(b);
 });
 
 lcb[4].addEventListener('click',()=>{
@@ -173,7 +171,6 @@ lcb[5].addEventListener('click',()=>{
         b=1;
     }
     showAudi(b);
-    console.log(b);
 });
 lcb[6].addEventListener('click',()=>{
     b=b-3;
@@ -188,7 +185,6 @@ lcb[7].addEventListener('click',()=>{
         b=1;
     }
     showBMV(b);
-    console.log(b);
 });
 
 function showToyota(b){
@@ -309,7 +305,7 @@ if (h>=1 && h<=3) {
         document.getElementById("bh3").innerHTML="I 3";
     }
     else if (h>=4 && h<=6) { 
-        document.getElementById("bi1").src="./images/m3.jfif";
+        document.getElementById("bi1").src="./images/m3f.jfif";
         document.getElementById("bp1").innerHTML="2000Rs";
         document.getElementById("bh1").innerHTML="M3";
         document.getElementById("bi2").src="./images/i8.jfif";

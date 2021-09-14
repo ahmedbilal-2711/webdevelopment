@@ -52,7 +52,8 @@ h2{
 }
 
 #menuIcon{
-    height: 45px;
+    height: 42px;
+    visibility: hidden;
 }
 
 #nav>#middle{
@@ -94,22 +95,39 @@ ul li a :active{
     height: 60px;
     transform: rotate(-90deg);
 }
+
+#contactSub{
+    display: none;
+}
+
 #contact:hover > #contactSub{
     position: absolute;
     display: block;
-    z-index: 2;
 }
-#contactSub{
-    display: none;
-    background-color: rgb(238, 181, 198);
-}
-
 #contactSub li a{
     font-size: 1.2rem;
+    opacity: 0;
 }
 #contactSub li a:hover{
     background-color: whitesmoke;
     color: black;
+}
+
+#con1{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 0ms 1 forwards normal;
+}
+#con2{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 270ms 1 forwards normal;
+}
+#con3{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 520ms 1 forwards normal;
+}
+#con4{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 770ms 1 forwards normal;
 }
 
 .contactSubIcon{
@@ -117,10 +135,61 @@ ul li a :active{
     height: 20px;
 }
 
+#serviceSub{
+    display: none;
+    position: absolute;
+    font-size: 1.2rem;
+}
+
+#serviceSub li a{
+    opacity: 0;
+}
+
+#service:hover > #serviceSub{
+    display: block;
+    color: black;
+}
+
+#s1{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 0ms 1 forwards normal;
+}
+#s2{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 270ms 1 forwards normal;
+}
+#s3{
+    background-color: rgb(238, 181, 198);
+    animation: roll 250ms ease-in-out 520ms 1 forwards normal;
+}
+
+@keyframes roll {
+    0%{
+        display: block;
+        opacity: 0;
+        transform: rotateX(90deg);
+    }
+    50%{
+        opacity: 0.5;
+        transform: rotateX(20deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+#serviceSub li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+
 /* Sliding Images */
 #sec1{
     background-color:rgb(199, 162, 162);
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -203,13 +272,18 @@ ul li a :active{
 .sec2{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding: 10px 2px 10px 2px;
 }
 
 .toyota,.honda,.bmw,.audi{
-    border: 2px solid green;
     width: 28%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(245, 242, 239);
 }
 
 
@@ -222,7 +296,17 @@ ul li a :active{
     font-weight: 1200;
 }
 
-.honda > img{
+.honda > img,.audi > img,.bmw > img,.toyota > img{
     width: 265px;
     height: 120px;
+}
+
+/* Footer */
+#foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8px 5px 8px;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: bisque;
 }
