@@ -53,12 +53,12 @@ h2{
 
 #menuBtn{
     visibility: hidden;
-    height: 16px;
+    height: 24px;
 }
 
 #menuBtn>img{
     visibility: hidden;
-    height: 12px;
+    height: 20px;
 }
 
 
